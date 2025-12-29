@@ -1,4 +1,4 @@
-# Instance Decision-entropy Inhibition-optimized Prior-guiding Active Explanation Clustering for High-effect Pathology-grade Indicator Learning
+# Instance Decision-entropy Inhibition-optimized Prior-guiding Actively Explainable Clustering for Building Pathologist-like Grading Indicator
 ## 🧔 Authors
 - Pan Huang, _Member_, _IEEE_, Mingrui Ma, Yifang Ping, Sukun Tian, Qin Jin, _Senior Member_, _IEEE_
 
