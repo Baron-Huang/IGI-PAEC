@@ -10,8 +10,10 @@
 ## :rocket: Pipeline
 1. Here's a motivation of our **Instance Decision-entropy Inhibition-optimized Prior-guiding Active Explanation Clustering (IDI-PAEC)** method:
 
+<div align=center>
 <img src="https://github.com/Baron-Huang/TicMIL/blob/main/Main_fig/Motivation_for_IDI_PAEC.jpg" style="width:100%; height:100%;">
-
+<\div>
+   
 2. Here's an overview of our **Instance Decision-entropy Inhibition-optimized Prior-guiding Active Explanation Clustering (IDI-PAEC)** method:
 
 <div align=center>
