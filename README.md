@@ -14,7 +14,7 @@
 
 2. Here's an overview of our **Instance Decision-entropy Inhibition-optimized Prior-guiding Active Explanation Clustering (IDI-PAEC)** method:
 
-<img src="https://github.com/Baron-Huang/TicMIL/blob/main/Main_fig/Main_Frame_for_IDI_PAEC.jpg" style="width:80%; height:80%;">
+<img src="https://github.com/Baron-Huang/TicMIL/blob/main/Main_fig/Main_Frame_for_IDI_PAEC.jpg" style="width:80%; height:80%;"><div align="center">
 
 
 
