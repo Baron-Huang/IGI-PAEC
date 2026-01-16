@@ -3,7 +3,7 @@
 - Pan Huang, _Member_, _IEEE_, Mingrui Ma, Yifang Ping, Qin Jin, _Senior Member_, _IEEE_
 
 ## :fire: News
-- [2025/12/29] Our manuscript will be submitted to _IEEE Transactions on Medical Imaging (IF 9.8)_.
+- [2026/01/30] Our manuscript will be submitted to _IEEE Transactions on Medical Imaging (IF 9.8)_.
 
 
 
