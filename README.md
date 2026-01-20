@@ -1,4 +1,4 @@
-# Instance Decision-entropy Inhibition-optimized Prior-guiding Actively Explainable Clustering for Achieving Pathologist-like Grading
+# Instance Gradient-entropy Inhibition-optimized Prior-guiding Actively Explainable Clustering for Achieving Pathologist-like Grading
 ## 🧔 Authors [* is corresponding authors]
 - Pan Huang, _Member_, _IEEE_, Mingrui Ma, Yifang Ping*, Qin Jin*, _Senior Member_, _IEEE_
 
@@ -8,16 +8,16 @@
 
 
 ## :rocket: Pipeline
-1. Here's a motivation of our **Instance Decision-entropy Inhibition-optimized Prior-guiding Active Explanation Clustering (IDI-PAEC)** method:
+1. Here's a motivation of our **Instance Gradient-entropy Inhibition-optimized Prior-guiding Active Explanation Clustering (IDI-PAEC)** method:
 
 <div align=center>
-<img src="https://github.com/Baron-Huang/TicMIL/blob/main/Main_fig/Motivation_for_IDI_PAEC.jpg" style="width:100%; height:100%;">
+<img src="https://github.com/Baron-Huang/TicMIL/blob/main/Main_fig/Motivation_for_IGI_PAEC.jpg" style="width:100%; height:100%;">
 </div>
    
-2. Here's an overview of our **Instance Decision-entropy Inhibition-optimized Prior-guiding Active Explanation Clustering (IDI-PAEC)** method:
+2. Here's an overview of our **Instance Gradient-entropy Inhibition-optimized Prior-guiding Active Explanation Clustering (IDI-PAEC)** method:
 
 <div align=center>
-<img src="https://github.com/Baron-Huang/TicMIL/blob/main/Main_fig/Main_Frame_for_IDI_PAEC.jpg" style="width:80%; height:80%;">
+<img src="https://github.com/Baron-Huang/TicMIL/blob/main/Main_fig/Main_Frame_for_IGI_PAEC.jpg" style="width:80%; height:80%;">
 </div>
 
 
@@ -35,12 +35,12 @@
 
 ## 🛠️ Getting Started
 
-To get started with **IDI-PAEC**, follow the installation instructions below.
+To get started with **IGI-PAEC**, follow the installation instructions below.
 
 1.  Clone the repo
 
 ```sh
-git clone https://github.com/Baron-Huang/IDI-PWC
+git clone https://github.com/Baron-Huang/IGI_PAEC
 ```
 
 2. Install dependencies
@@ -51,25 +51,25 @@ pip install -r requirements.txt
 
 3. Training on Swin Transformer-S Backbone
 ```sh
-sh IDI_PAEC_main.sh
+sh IGI_PAEC_main.sh
 Modify: --abla_type sota --run_mode train --random_seed ${seed}
 ```
 
 4. Evaluation
 ```sh
-sh IDI_PAEC_main.sh
+sh IGI_PAEC_main.sh
 Modify: --abla_type sota --run_mode test --random_seed ${seed}
 ```
 
 5. Extract features for plots
 ```sh
-sh IDI_PAEC_main.sh
+sh IGI_PAEC_main.sh
 Modify: --abla_type sota --run_mode test --random_seed ${seed} --feat_extract
 ```
 
 6. Interpretability plots
 ```sh
-sh IDI_PAEC_main.sh
+sh IGI_PAEC_main.sh
 Modify: --abla_type sota --run_mode test --random_seed ${seed} --bag_weight
 ```
 
