@@ -26,6 +26,7 @@ class Get_Features:
         self.out_or_in = out_or_in
         self.with_pe = with_pe
 
+
     def save_feats(self, model, feats_in, feats_out):
         if self.out_or_in == 'in':
             feats_np = feats_in[0].detach().cpu().numpy()

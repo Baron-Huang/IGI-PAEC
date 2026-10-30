@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Compiled extensions and package artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.pyd
+*.obj
+*.lib
+
+# Data, checkpoints, and generated experiment outputs
+Datasets/
+data/
+Pretrained_wegts/
+Results/
+checkpoints/
+outputs/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5

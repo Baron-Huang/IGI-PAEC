@@ -60,7 +60,7 @@ def plot_icale(X_rd_dict = None, x_rd = None):
         )
 
     plt.xlabel("Disturbance value")
-    plt.ylabel("ICALE value")
+    plt.ylabel("ITALE value")
     plt.legend(frameon=False)
     plt.tight_layout()
     plt.show()
@@ -178,21 +178,21 @@ def get_inputs(dists_path = None, labels_path = None, relats_path = None,
 
 if __name__ == '__main__':
     ################### using a matrix list in the subsequent codes
-    dists_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Relations/AMU_LSCC/IGI_PAEC/distances.joblib'
-    labels_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Relations/AMU_LSCC/IGI_PAEC/labels.joblib'
-    relats_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Relations/AMU_LSCC/IGI_PAEC/relations.joblib'
-    feats_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Features/AMU_LSCC/IGI_PAEC/feats_full.joblib'
-    layers_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Layers/AMU_LSCC/IGI_PAEC/layers.npy'
-    save_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Explaining/AMU_LSCC/ICALE_AMU_LSCC.xlsx'
+    dists_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Relations/DHMC_Kidney/IGI_PAEC/distances.joblib'
+    labels_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Relations/DHMC_Kidney/IGI_PAEC/labels.joblib'
+    relats_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Relations/DHMC_Kidney/IGI_PAEC/relations.joblib'
+    feats_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Features/DHMC_Kidney/IGI_PAEC/feats_full.joblib'
+    layers_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Layers/DHMC_Kidney/IGI_PAEC/layers.npy'
+    save_path = r'/home/dataset-hpfs-0/Kevin_Huang/IGI_PAEC_public/Results/Explaining/DHMC_Kidney/ICALE_DHMC_Kidney.xlsx'
 
     distances_list, labels_list, features_list, relations_list, W, rd_array, rd_sub_num, clus_name_list =\
                                     get_inputs(dists_path = dists_path, labels_path = labels_path, relats_path = relats_path,
                                                 feats_path = feats_path, layers_path = layers_path)
 
-    sample_num = 30
+    sample_num = 9
 
     X = features_list[sample_num].reshape(1, features_list[sample_num].shape[0], features_list[sample_num].shape[1])
-    b = np.zeros(3, )
+    b = np.zeros(5, )
     if labels_list[sample_num] == 0:
         clus_name_list = ['Tumor', 'Non-tumor', 'Non-tissue']
     elif labels_list[sample_num] == 1:
